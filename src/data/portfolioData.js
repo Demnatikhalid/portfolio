@@ -9,6 +9,7 @@ export const personalInfo = {
   email: "kdemnati20@gmail.com",
   linkedin: "https://www.linkedin.com/in/khalid-demnati-715819303/",
   github: "https://github.com/Demnatikhalid",
+  profilePicture: "/images/profile-photo.png",
 };
 
 export const highlights = [

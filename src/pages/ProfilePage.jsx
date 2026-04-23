@@ -14,6 +14,20 @@ function ProfilePage() {
         <div>
           <p className="eyebrow">A propos</p>
           <h3>{personalInfo.role}</h3>
+          {personalInfo.profilePicture && (
+            <img 
+              src={personalInfo.profilePicture} 
+              alt={personalInfo.name}
+              style={{
+                width: "200px",
+                height: "200px",
+                borderRadius: "8px",
+                marginTop: "1rem",
+                marginBottom: "1rem",
+                objectFit: "cover"
+              }}
+            />
+          )}
           <p>
             Je combine developpement web, bonnes pratiques d'equipe et apprentissage continu pour
             concevoir des applications performantes. Mon parcours relie front-end, back-end,
