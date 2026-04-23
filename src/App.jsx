@@ -5,6 +5,7 @@ import CertificationsPage from "./pages/CertificationsPage";
 import EducationPage from "./pages/EducationPage";
 import ExperiencePage from "./pages/ExperiencePage";
 import ProfilePage from "./pages/ProfilePage";
+import ProjectsPage from "./pages/ProjectsPage";
 import SkillsPage from "./pages/SkillsPage";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Routes>
             <Route path="/" element={<ProfilePage />} />
             <Route path="/experience" element={<ExperiencePage />} />
+            <Route path="/projets" element={<ProjectsPage />} />
             <Route path="/competences" element={<SkillsPage />} />
             <Route path="/formation" element={<EducationPage />} />
             <Route path="/certifications" element={<CertificationsPage />} />

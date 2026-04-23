@@ -4,6 +4,7 @@ import { personalInfo } from "../data/portfolioData";
 const links = [
   { to: "/", label: "Profil", end: true },
   { to: "/experience", label: "Experience" },
+  { to: "/projets", label: "Projets" },
   { to: "/competences", label: "Competences" },
   { to: "/formation", label: "Formation" },
   { to: "/certifications", label: "Certifications" },
