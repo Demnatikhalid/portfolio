@@ -179,4 +179,10 @@ export const certifications = [
     date: "Certification ajoutee au portfolio",
     href: "/certifications/hcia-cloud-computing.pdf",
   },
+  {
+    title: "The Full Stack",
+    issuer: "Meta / Coursera",
+    date: "28 avril 2026",
+    href: "/certifications/the-full-stack.pdf",
+  },
 ];
