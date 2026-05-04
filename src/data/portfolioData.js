@@ -183,6 +183,6 @@ export const certifications = [
     title: "The Full Stack",
     issuer: "Meta / Coursera",
     date: "28 avril 2026",
-    href: "/certifications/the-full-stack.pdf",
+    href: "/certifications/Coursera 6VNHH7R9PMJA.pdf",
   },
 ];
