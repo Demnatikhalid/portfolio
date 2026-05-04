@@ -127,7 +127,6 @@ export const projects = [
       "Rapports et statistiques de gestion",
     ],
   },
-  "pour voir toutes les projet n'hesitez pas de visiter mon profil GitHub : https://github.com/Demnatikhalid",
 ];
 
 export const certifications = [
