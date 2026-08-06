@@ -33,16 +33,16 @@ export const experiences = [
 
 export const education = [
   {
-    title: "Licence Computer Science",
-    school: "Universite Mundiapolis",
-    period: "2025 - Aujourd'hui",
-    description: "Parcours universitaire oriente developpement logiciel, architecture et technologies numeriques.",
+    title: "Licence en Informatique Appliquée",
+    school: "Université Privée Mundiapolis",
+    period: "2025 - 2026",
+    description: "Parcours universitaire orienté développement logiciel, architecture et technologies numériques (Cycle Licence obtenu).",
   },
   {
-    title: "Technicien Specialise en Developpement Digital",
-    school: "Institut Specialise de Technologie Appliquee NTIC",
+    title: "Technicien Spécialisé en Développement Digital",
+    school: "Institut Spécialisé de Formation de l'Offshoring (ISFO) - OFPPT",
     period: "2023 - 2025",
-    description: "Formation axee sur le developpement web, les bases de donnees, les API et les methodes agiles.",
+    description: "Formation axée sur le développement web full stack, les bases de données, les API et les méthodes agiles (Diplôme obtenu).",
   },
 ];
 
@@ -184,5 +184,24 @@ export const certifications = [
     issuer: "Meta / Coursera",
     date: "28 avril 2026",
     href: "/certifications/Coursera 6VNHH7R9PMJA.pdf",
+  },
+];
+
+export const diplomas = [
+  {
+    title: "Licence en Informatique Appliquée",
+    specialty: "Développement logiciel",
+    school: "Université Privée Mundiapolis, École d'Ingénierie",
+    location: "Casablanca, Maroc",
+    date: "Juillet 2026",
+    pdf: "/diplomes/attestation_reussite_licence.pdf",
+  },
+  {
+    title: "Diplôme de Technicien Spécialisé",
+    specialty: "Développement Digital option : Web Full Stack",
+    school: "Institut Spécialisé de Formation de l'Offshoring (ISFO) - OFPPT",
+    location: "Casablanca, Maroc",
+    date: "Juillet 2025",
+    pdf: "/diplomes/diplome_technicien_specialise.pdf",
   },
 ];
